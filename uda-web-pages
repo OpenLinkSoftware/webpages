@@ -1,0 +1,13 @@
+@prefix oracle-page: <http://uda.openlinksw.com/odbc-oracle/> . 
+@prefix oracle-st: <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#> .
+@prefix oracle-mt: <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#> .
+
+@prefix sqlserver-page: <http://uda.openlinksw.com/odbc-sqlserver/> . 
+@prefix sqlserver-st: <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#> .
+@prefix sqlserver-mt: <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#> .
+
+oracle-page:
+schema:about oracle-st:this, oracle-mt:this . 
+
+sqlserver-page:
+schema:about sqlserver-st:this, sqlserver-mt:this . 
