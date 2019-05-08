@@ -61,7 +61,7 @@ odbc-sybase-page:
 odbc-informix-page:
     schema:about odbc-informix-st:this, odbc-informix-mt:this . 
 
-vingres-page:
+ingres-page:
     schema:about odbc-ingres-st:this, odbc-ingres-mt:this . 
 
 odbc-progress-page:
