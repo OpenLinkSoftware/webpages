@@ -46,6 +46,38 @@
 @prefix jdbc-odbc-st: <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#> .
 @prefix jdbc-odbc-mt: <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#> .
 
+@prefix source:    <http://uda.openlinksw.com/data/turtle/general/web-page-relations-tweaks.ttl> .
+@prefix sourceDAV: <http://www.openlinksw.com/DAV/uda2.openlinksw.com/data/turtle/general/web-page-relations-tweaks.ttl> .
+
+sourceDAV:
+   a schema:CreativeWork ;
+   schema:creator <http://www.openlinksw.com/#this> ;
+   schema:name "UDA Web Page Relation Tweaks -- WebDAV hosted TURTLE Document" ;
+   schema:description """RDF based Linked Data document that describes various UDA Web Pages."""@en ;
+   schema:license  <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   schema:dateCreated  "2014-03-30T18:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-05-08T18:19:00-05:00"^^xsd:dateTime ;
+   cc:attributionName  "OpenLink Software" ;
+   dcterms:format "text/turtle" ;
+   cc:attributionURL  <http://www.openlinksw.com/#this> ;
+   owl:sameAs source: .
+
+
+source:
+   a schema:CreativeWork ;
+   schema:creator <http://www.openlinksw.com/#this> ;
+   schema:name "UDA Web Page Relation Tweaks -- WebDAV hosted TURTLE Document" ;
+   schema:description """RDF based Linked Data document that describes various UDA Web Pages."""@en ;
+   schema:dateCreated  "2014-03-30T18:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-05-08T18:19:00-05:00"^^xsd:dateTime ;
+   schema:license  <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   dcterms:format "text/turtle" ;
+   cc:attributionURL  <http://www.openlinksw.com/#this> ;
+   dcterms:subject 	jdbc-odbc-page:, odbc-odbc-page:, odbc-jdbc-page:, odbc-postgresql-page:, 
+   odbc-progress-page:, odbc-ingres-page:, odbc-informix-page:, odbc-sybase-page:, odbc-db2-page:,
+   odbc-sqlserver-page:, odbc-oracle-page: .
+
 odbc-oracle-page:
     schema:about odbc-oracle-st:this, odbc-oracle-mt:this . 
 
