@@ -1,38 +1,38 @@
-@prefix oracle-page: <http://uda.openlinksw.com/odbc-oracle/> . 
-@prefix oracle-st: <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#> .
-@prefix oracle-mt: <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#> .
+@prefix odbc-oracle-page: <http://uda.openlinksw.com/odbc-oracle/> . 
+@prefix odbc-oracle-st: <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#> .
+@prefix odbc-oracle-mt: <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#> .
 
-@prefix sqlserver-page: <http://uda.openlinksw.com/odbc-sqlserver/> . 
-@prefix sqlserver-st: <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#> .
-@prefix sqlserver-mt: <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#> .
+@prefix odbc-sqlserver-page: <http://uda.openlinksw.com/odbc-sqlserver/> . 
+@prefix odbc-sqlserver-st: <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#> .
+@prefix odbc-sqlserver-mt: <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#> .
 
-@prefix db2-page: <http://uda.openlinksw.com/odbc-db2/> . 
-@prefix db2-st: <http://data.openlinksw.com/oplweb/product/odbc-db2-st#> .
-@prefix db2-mt: <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#> .
+@prefix odbc-db2-page: <http://uda.openlinksw.com/odbc-db2/> . 
+@prefix odbc-db2-st: <http://data.openlinksw.com/oplweb/product/odbc-db2-st#> .
+@prefix odbc-db2-mt: <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#> .
 
-@prefix sybase-page: <http://uda.openlinksw.com/odbc-sybase/> . 
-@prefix sybase-st: <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#> .
-@prefix sybase-mt: <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#> .
+@prefix odbc-sybase-page: <http://uda.openlinksw.com/odbc-sybase/> . 
+@prefix odbc-sybase-st: <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#> .
+@prefix odbc-sybase-mt: <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#> .
 
-@prefix informix-page: <http://uda.openlinksw.com/odbc-informix/> . 
-@prefix informix-st: <http://data.openlinksw.com/oplweb/product/odbc-informix-st#> .
-@prefix informix-mt: <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#> .
+@prefix odbc-informix-page: <http://uda.openlinksw.com/odbc-informix/> . 
+@prefix odbc-informix-st: <http://data.openlinksw.com/oplweb/product/odbc-informix-st#> .
+@prefix odbc-informix-mt: <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#> .
 
-@prefix ingres-page: <http://uda.openlinksw.com/odbc-ingres/> . 
-@prefix ingres-st: <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#> .
-@prefix ingres-mt: <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#> .
+@prefix odbc-ingres-page: <http://uda.openlinksw.com/odbc-ingres/> . 
+@prefix odbc-ingres-st: <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#> .
+@prefix odbc-ingres-mt: <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#> .
 
-@prefix progress-page: <http://uda.openlinksw.com/odbc-progress/> . 
-@prefix progress-st: <http://data.openlinksw.com/oplweb/product/odbc-progress-st#> .
-@prefix progress-mt: <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#> .
+@prefix odbc-progress-page: <http://uda.openlinksw.com/odbc-progress/> . 
+@prefix odbc-progress-st: <http://data.openlinksw.com/oplweb/product/odbc-progress-st#> .
+@prefix odbc-progress-mt: <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#> .
 
-@prefix mysql-page: <http://uda.openlinksw.com/odbc-mysql/> . 
-@prefix mysql-st: <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#> .
-@prefix mysql-mt: <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#> .
+@prefix odbc-mysql-page: <http://uda.openlinksw.com/odbc-mysql/> . 
+@prefix odbc-mysql-st: <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#> .
+@prefix odbc-mysql-mt: <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#> .
 
-@prefix postgresql-page: <http://uda.openlinksw.com/odbc-postgresql/> . 
-@prefix postgresql-st: <http://data.openlinksw.com/oplweb/product/odbc-postgresql-st#> .
-@prefix postgresql-mt: <http://data.openlinksw.com/oplweb/product/odbc-postgresql-mt#> .
+@prefix odbc-postgresql-page: <http://uda.openlinksw.com/odbc-postgresql/> . 
+@prefix odbc-postgresql-st: <http://data.openlinksw.com/oplweb/product/odbc-postgresql-st#> .
+@prefix odbc-postgresql-mt: <http://data.openlinksw.com/oplweb/product/odbc-postgresql-mt#> .
 
 @prefix odbc-jdbc-page: <http://uda.openlinksw.com/odbc-jdbc/> . 
 @prefix odbc-jdbc-st: <http://data.openlinksw.com/oplweb/product/odbc-jdbc-st#> .
@@ -46,32 +46,32 @@
 @prefix jdbc-odbc-st: <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#> .
 @prefix jdbc-odbc-mt: <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#> .
 
-oracle-page:
-    schema:about oracle-st:this, oracle-mt:this . 
+odbc-oracle-page:
+    schema:about odbc-oracle-st:this, odbc-oracle-mt:this . 
 
-sqlserver-page:
-    schema:about sqlserver-st:this, sqlserver-mt:this . 
+odbc-sqlserver-page:
+    schema:about odbc-sqlserver-st:this, odbc-sqlserver-mt:this . 
 
-db2-page:
-    schema:about db2-st:this, db2-mt:this . 
+odbc-db2-page:
+    schema:about odbc-db2-st:this, odbc-db2-mt:this . 
 
-sybase-page:
-    schema:about sybase-st:this, sybase-mt:this . 
+odbc-sybase-page:
+    schema:about odbc-sybase-st:this, odbc-sybase-mt:this . 
 
-informix-page:
-    schema:about informix-st:this, informix-mt:this . 
+odbc-informix-page:
+    schema:about odbc-informix-st:this, odbc-informix-mt:this . 
 
-ingres-page:
-    schema:about ingres-st:this, ingres-mt:this . 
+vingres-page:
+    schema:about odbc-ingres-st:this, odbc-ingres-mt:this . 
 
-progress-page:
-    schema:about progress-st:this, progress-mt:this . 
+odbc-progress-page:
+    schema:about odbc-progress-st:this, odbc-progress-mt:this . 
 
-mysql-page:
-    schema:about mysql-st:this, mysql-mt:this . 
+odbc-mysql-page:
+    schema:about odbc-mysql-st:this, odbc-mysql-mt:this . 
 
-postgresql-page:
-    schema:about postgresql-st:this, postgresql-mt:this . 
+odbc-postgresql-page:
+    schema:about odbc-postgresql-st:this, odbc-postgresql-mt:this . 
 
 odbc-jdbc-page:
     schema:about odbc-jdbc-st:this, odbc-jdbc-mt:this . 
